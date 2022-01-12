@@ -1,0 +1,20 @@
+.class1, .id {
+    font-size : 20px;
+    font-weight : bold;
+}
+.attr1 {
+    color:brown;
+    font-weight : bold;
+}
+p { color : white; 
+    background-color:brown;    
+}
+h2 {
+    color : blue;
+    font-size : 40px;
+    font-style : italic;
+    font-weight : bold;
+}
+#main > div {
+    background-color : yellow
+}

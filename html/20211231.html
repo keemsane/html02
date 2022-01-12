@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>20211231 Get 방식으로 전송</title>
+</head>
+<body>
+    <form action="" method="get">
+        <fieldset>
+            <legend>
+                <h1>개인 정보 입력</h1>
+            </legend>
+            <p>
+                아 이 디 : 
+                <input type="text" name="ID"> 
+                <input type="submit" value="ID중복검사" onclick="alert('사용가능한 ID입니다.')">
+            </p>
+            <p>
+                생년월일 : 
+                <input type="date" name="birth">
+            </p>
+            <p>
+                성 별: 
+                <input type="radio" name="sex" value="남자">남성
+                <input type="radio" name="sex" value="여자">여성
+            </p>
+            <p>
+                E-mail: 
+                <input type="email" name="myemail">
+            </p>
+            <p>
+                메일수신: 
+                <input type="radio" name="yes" value="수신동의">수신동의
+                <input type="radio" name="yes" value="수신거부">수신거부
+            </p>
+            <p>
+                핸드폰: 
+                <select name="phone" id="">
+                    <option value="1" selected>010</option>>
+                    <option value="2">011</option>
+                    <option value="3">016</option>
+                    <option value="4">017</option>
+            </select> 
+            - 
+            <input type="text" name="phone" id=""> 
+            - 
+            <input type="text" name="phone" id="">
+            </p>
+            <p>
+                직업: 
+                <label>
+                <input type="text" list="joblist" name="job">
+                <datalist id="joblist">
+                    <option value="학생">학생</option>
+                    <option value="직장인">직장인</option>
+                    <option value="무직">무직</option>
+                    <option value="주부">주부</option>
+                </datalist></p></label>
+            <p>
+                취미: 
+                <input type="checkbox" name="hobby" value="쇼핑">쇼핑
+                <input type="checkbox" name="hobby" value="인터넷">인터넷
+                <input type="checkbox" name="hobby" value="음악감상">음악감상
+                <input type="checkbox" name="hobby" value="독서">독서
+                <input type="checkbox" name="hobby" value="스포츠">스포츠</p>
+            <p>
+                자기 소개: 
+                <textarea rows="5" cols="50">자기 소개 부탁드립니다.</textarea>
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="등록">
+            <input type="reset" value="초기화">
+        </p>
+    </form>
+</body>
+</html>
